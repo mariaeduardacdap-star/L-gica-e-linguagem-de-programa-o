@@ -4,4 +4,10 @@ nota3 = float(input("Digite a nota do 3° Bimestre: "))
 nota4 = float(input("Digite a nota do 4° Bimestre: "))
 
 media = (nota1 + nota2 + nota3 + nota4)/4
-print("Sua média é ", media)
+print("Sua nota é ", media)
+if media <=3:
+    print("Reprovado")
+elif media <=5:
+    print("Recuperação")
+else:
+    print("Aprovado")
